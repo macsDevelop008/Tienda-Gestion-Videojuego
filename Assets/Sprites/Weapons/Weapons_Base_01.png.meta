@@ -1,12 +1,147 @@
 fileFormatVersion: 2
 guid: e7812bf96679d7f4896d691f0455480d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3182346830851687036
+    second: Weapons_Base_01_0
+  - first:
+      213: 42894306465998796
+    second: Weapons_Base_01_1
+  - first:
+      213: -6199595940017660562
+    second: Weapons_Base_01_2
+  - first:
+      213: 8011322663951800518
+    second: Weapons_Base_01_3
+  - first:
+      213: 8054221729257326443
+    second: Weapons_Base_01_4
+  - first:
+      213: -873364192531531856
+    second: Weapons_Base_01_7
+  - first:
+      213: 3915767993714405801
+    second: Weapons_Base_01_9
+  - first:
+      213: -1079843446197230295
+    second: Weapons_Base_01_11
+  - first:
+      213: 3093601161700175170
+    second: Weapons_Base_01_12
+  - first:
+      213: -2189340768179312768
+    second: Weapons_Base_01_13
+  - first:
+      213: 4079463470438116876
+    second: Weapons_Base_01_14
+  - first:
+      213: -1002676108997652389
+    second: Weapons_Base_01_15
+  - first:
+      213: -7623714619034184919
+    second: Weapons_Base_01_16
+  - first:
+      213: 3366966621753615602
+    second: Weapons_Base_01_17
+  - first:
+      213: -1547007137615239781
+    second: Weapons_Base_01_18
+  - first:
+      213: 6079893707843566092
+    second: Weapons_Base_01_19
+  - first:
+      213: -1813747213413853591
+    second: Weapons_Base_01_20
+  - first:
+      213: -4422150532874776956
+    second: Weapons_Base_01_21
+  - first:
+      213: 6157296401113115815
+    second: Weapons_Base_01_22
+  - first:
+      213: -657126234654543310
+    second: Weapons_Base_01_23
+  - first:
+      213: 6183615847043991381
+    second: Weapons_Base_01_24
+  - first:
+      213: -7867066049515919385
+    second: Weapons_Base_01_25
+  - first:
+      213: -6092270125990259244
+    second: Weapons_Base_01_26
+  - first:
+      213: 2706413911738601617
+    second: Weapons_Base_01_27
+  - first:
+      213: 3779757503174844830
+    second: Weapons_Base_01_28
+  - first:
+      213: -7679997546482445611
+    second: Weapons_Base_01_29
+  - first:
+      213: -4412395110382036646
+    second: Weapons_Base_01_30
+  - first:
+      213: -4920453810726782461
+    second: Weapons_Base_01_31
+  - first:
+      213: -949838704229432819
+    second: Weapons_Base_01_32
+  - first:
+      213: 6424746173009402951
+    second: Weapons_Base_01_33
+  - first:
+      213: -4197603155398206981
+    second: Weapons_Base_01_34
+  - first:
+      213: 3629372647649550881
+    second: Weapons_Base_01_35
+  - first:
+      213: 3166656157313344388
+    second: Weapons_Base_01_36
+  - first:
+      213: -3514529325545706189
+    second: Weapons_Base_01_37
+  - first:
+      213: -5537662344467468655
+    second: Weapons_Base_01_38
+  - first:
+      213: 3743428716342215779
+    second: Weapons_Base_01_39
+  - first:
+      213: 2935095127960673097
+    second: Weapons_Base_01_40
+  - first:
+      213: -6490679516794830659
+    second: Weapons_Base_01_41
+  - first:
+      213: -4064882836975399719
+    second: Weapons_Base_01_42
+  - first:
+      213: -8445245213458429447
+    second: Weapons_Base_01_43
+  - first:
+      213: -5334870367517385214
+    second: Weapons_Base_01_44
+  - first:
+      213: -1853223521158771287
+    second: Weapons_Base_01_55
+  - first:
+      213: 7028159135706766522
+    second: Weapons_Base_01_56
+  - first:
+      213: 8604102995145372001
+    second: Weapons_Base_01_57
+  - first:
+      213: 6221907206495081430
+    second: Weapons_Base_01_58
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +169,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +184,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -71,13 +206,982 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Weapons_Base_01_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 552
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c724105f497f92c20800000000000000
+      internalID: 3182346830851687036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 546
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7eacbf424689000800000000000000
+      internalID: 42894306465998796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 544
+        width: 20
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d1b44e65c96f9a0800000000000000
+      internalID: -6199595940017660562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 537
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c812ed548fed2f60800000000000000
+      internalID: 8011322663951800518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 567
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678d9a5df756cf60800000000000000
+      internalID: 8054221729257326443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 558
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7bc98e4ef21e3f0800000000000000
+      internalID: -873364192531531856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 552
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f0306e3a975630800000000000000
+      internalID: 3915767993714405801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 548
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92561606b10a301f0800000000000000
+      internalID: -1079843446197230295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 435
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24defdfadddaeea20800000000000000
+      internalID: 3093601161700175170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 435
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0872464cb26ed91e0800000000000000
+      internalID: -2189340768179312768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 429
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e65a5996a2d9830800000000000000
+      internalID: 4079463470438116876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 424
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b509c6a2467c512f0800000000000000
+      internalID: -1002676108997652389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 436
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d38732ff133690800000000000000
+      internalID: -7623714619034184919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 435
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a834bd4ed9be20800000000000000
+      internalID: 3366966621753615602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 434
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952379643de78ae0800000000000000
+      internalID: -1547007137615239781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 429
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0af5285d1f106450800000000000000
+      internalID: 6079893707843566092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 313
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966dc10e48644d6e0800000000000000
+      internalID: -1813747213413853591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_21
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 310
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ec1b8158d51a2c0800000000000000
+      internalID: -4422150532874776956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 311
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac632d347c137550800000000000000
+      internalID: 6157296401113115815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 306
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23273d2db2b61e6f0800000000000000
+      internalID: -657126234654543310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 307
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5578886c9dd90d550800000000000000
+      internalID: 6183615847043991381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 308
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e761160c1192d290800000000000000
+      internalID: -7867066049515919385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 306
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d550a04998e37ba0800000000000000
+      internalID: -6092270125990259244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 308
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190da501d1d1f8520800000000000000
+      internalID: 2706413911738601617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 186
+        width: 17
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91aad15c65647430800000000000000
+      internalID: 3779757503174844830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 253
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2da0efbea2b6590800000000000000
+      internalID: -7679997546482445611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 17
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591205660604c2c0800000000000000
+      internalID: -4412395110382036646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 253
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ab9ed245907bbb0800000000000000
+      internalID: -4920453810726782461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 181
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02cc702bbe71d2f0800000000000000
+      internalID: -949838704229432819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 183
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c9646ca98492950800000000000000
+      internalID: 6424746173009402951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 187
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95e668b2e1fb5c0800000000000000
+      internalID: -4197603155398206981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_35
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 186
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122abac913f1e5230800000000000000
+      internalID: 3629372647649550881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 248
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48327765ff832fb20800000000000000
+      internalID: 3166656157313344388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 183
+        width: 20
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33da72ef232e93fc0800000000000000
+      internalID: -3514529325545706189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 190
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ea5ffff654623b0800000000000000
+      internalID: -5537662344467468655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 247
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364039f759453f330800000000000000
+      internalID: 3743428716342215779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_40
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 248
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5314d77d8bb820800000000000000
+      internalID: 2935095127960673097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 241
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04a8a5e597ce5a0800000000000000
+      internalID: -6490679516794830659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_42
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 240
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dccf70b892a697c0800000000000000
+      internalID: -4064882836975399719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 235
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90eb229367cca80800000000000000
+      internalID: -8445245213458429447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 235
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e5e558aabb6f5b0800000000000000
+      internalID: -5334870367517385214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_55
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 67
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adceebb6070846e0800000000000000
+      internalID: -1853223521158771287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_56
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 64
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd7b44f79098160800000000000000
+      internalID: 7028159135706766522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_57
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 63
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b38c661ae76770800000000000000
+      internalID: 8604102995145372001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapons_Base_01_58
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 63
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d31594a3a7a85650800000000000000
+      internalID: 6221907206495081430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 24a4e8ceff3c5c9409ca84327735444c
     internalID: 0
     vertices: []
     indices: 
