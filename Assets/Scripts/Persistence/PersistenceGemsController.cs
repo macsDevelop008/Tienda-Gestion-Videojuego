@@ -28,9 +28,10 @@ public class PersistenceGemsController : MonoBehaviour
 
     public void ModificaCantidadGemasPersistida(int num)
     {
-        int cantidadNueva = CantidadDeGemasPersistida() + num;
+        //int cantidadNueva = CantidadDeGemasPersistida() + num;
 
-        PlayerPrefs.SetFloat(key, cantidadNueva);
+        PlayerPrefs.SetInt(key, num);
+        
     }
 }
 

@@ -1,18 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class GuiStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static GuiStats Shared;
+
+    //Force
+    [SerializeField] Text _forceNum; 
+    [SerializeField] Slider _forceSlider;
+
+    //Agility
+    [SerializeField] Text _agilityNum;
+    [SerializeField] Slider _agilitySlider;
+
+    //Agility
+    [SerializeField] Text _manaNum;
+    [SerializeField] Slider _manaSlider;
+
+
+    private void Awake()
     {
-        
+        Shared = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        InicializarStatsGUI();
+    }
+
+    void InicializarStatsGUI() 
+    {
+        //Obtener valores del personaje
+    }
+
+    public void ModificarFuerzaGUI(float num)
+    {
+        _forceNum.text = num.ToString();
+        _forceSlider.value = num;
+    }
+
+    public void ModificarAgilidadGUI(float num)
+    {
+        _agilityNum.text = num.ToString();
+        _agilitySlider.value = num;
+    }
+
+    public void ModificarManaGUI(float num)
+    {
+        _manaNum.text = num.ToString();
+        _manaSlider.value = num;
     }
 }

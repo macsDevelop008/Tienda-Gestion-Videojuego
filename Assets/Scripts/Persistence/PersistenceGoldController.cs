@@ -28,8 +28,7 @@ public class PersistenceGoldController : MonoBehaviour
 
     public void ModificaCantidadOroPersistida(int num)
     {
-        int cantidadNueva = CantidadDeOroPersistida() + num;
-
-        PlayerPrefs.SetFloat(key, cantidadNueva);
+        //int cantidadNueva = CantidadDeOroPersistida() + num;
+        PlayerPrefs.SetInt(key, num);
     }
 }

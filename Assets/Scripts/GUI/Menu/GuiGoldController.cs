@@ -20,6 +20,7 @@ public class GuiGoldController : MonoBehaviour
     {
         //Llamar valor de la persistencia
         NumeroOroActual = PersistenceGoldController.Shared.CantidadDeOroPersistida();
+        //print(NumeroOroActual);
         //Mostrar en pantalla
         MostrarEnPantallaOro();
 
@@ -37,11 +38,12 @@ public class GuiGoldController : MonoBehaviour
     /// Modifica el numero de oro siempre que esté en el rango
     /// 0 a 99999999
     /// </summary>
-    public void ModificarNumeroGemasGUI(int pNuevasGemas)
+    public void ModificarNumeroOroGUI(int pNuevoOro)
     {
+        
         if (NumeroOroActual >= 0 && NumeroOroActual <= 99999999)
         {
-            NumeroOroActual += pNuevasGemas;
+            NumeroOroActual += pNuevoOro;
             CorreccionCantidadOro();
         }
     }
