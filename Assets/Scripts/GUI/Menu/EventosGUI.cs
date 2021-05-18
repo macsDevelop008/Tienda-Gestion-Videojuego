@@ -5,15 +5,9 @@ using UnityEngine;
 public class EventosGUI : MonoBehaviour
 {
     [SerializeField] GameObject _panelMenuPrincipal;
-    [SerializeField] GameObject _paneStoreItems;
-    [SerializeField] GameObject _paneStoreMoney;
-
-    public void Store() 
-    {
-        _panelMenuPrincipal.SetActive(false);
-        _paneStoreMoney.SetActive(false);
-        _paneStoreItems.SetActive(true);
-    }
+    [SerializeField] GameObject _panelStoreItems;
+    [SerializeField] GameObject _panelStoreMoney;
+    [SerializeField] GameObject _panelInventory;
 
     //TESTEO
     public void MasOro()
@@ -24,5 +18,23 @@ public class EventosGUI : MonoBehaviour
     public void MasGemas() 
     {
         GuiGemsController.shared.ModificarNumeroGemasGUI(200);
+    }
+    //---------------
+
+    public void AbrirPanelStoreItems() 
+    {
+        _panelStoreItems.SetActive(true);
+        _panelMenuPrincipal.SetActive(false);
+    }
+
+    public void AbrirPanelStoreMoney()
+    {
+        _panelStoreMoney.SetActive(true);
+        _panelMenuPrincipal.SetActive(false);
+    }
+
+    public void AbrirInventory() 
+    {
+        _panelInventory.SetActive(true);
     }
 }
