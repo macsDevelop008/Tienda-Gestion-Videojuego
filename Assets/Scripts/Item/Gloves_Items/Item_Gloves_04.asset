@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3b477fdeca8e944184bd286676c1ad4, type: 3}
-  m_Name: Helmet_00
+  m_Name: Item_Gloves_04
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 0}
-  _tipoItem: 0
-  _force: 0
-  _agility: 0
-  _mana: 0
+  _codigo: Item_Gloves_04
+  _precioGemas: 580
+  _precioOro: 1000
+  _sprite: {fileID: 371291291467686680, guid: 2b612fdf1a830a743ad49f55a4c9ddf0, type: 3}
+  _tipoItem: 2
+  _force: 20
+  _agility: 7
+  _mana: 5

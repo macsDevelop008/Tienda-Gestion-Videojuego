@@ -7,13 +7,16 @@ public enum TIPO
 {
     CASCO, PECHERA,
     GUANTES, BOTAS,
-    LIBROHABILIDAD
+    HABILIDAD, PODER
 }
 [CreateAssetMenu(fileName = "New Item", menuName = "Item")]
 public class Item : ScriptableObject
 {
     [Header("Codigo")]
     public string _codigo;
+    [Header("Precios")]
+    public float _precioGemas;
+    public float _precioOro;
     [Header("Imagen")]
     public Sprite _sprite;
     [Header("Tipo de Item")]

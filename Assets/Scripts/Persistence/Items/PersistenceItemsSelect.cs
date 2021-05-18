@@ -4,15 +4,73 @@ using UnityEngine;
 
 public class PersistenceItemsSelect : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static PersistenceItemsSelect Shared;
+
+    private void Awake()
     {
-        
+        Shared = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    PersistenceManager Persistencia() 
     {
-        
+        return PersistenceManager.Shared;
+    }
+
+    //Modificar items seleccionados
+    public void ModificarCascoSeleccionado(Item item) 
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlaveCascoSeleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarPecheraSeleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlavePecheraSeleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarGuantesSeleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlaveGuantesSeleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarBotasSeleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlaveBotasSeleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarHabilidadSeleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlaveHabilidadSeleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarPoder1Seleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlavePoder1Seleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarPoder2Seleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlavePoder2Seleccionado()
+            , item._codigo
+            );
+    }
+    public void ModificarPoder3Seleccionado(Item item)
+    {
+        PlayerPrefs.SetString(
+            Persistencia().DarLlavePoder3Seleccionado()
+            , item._codigo
+            );
     }
 }

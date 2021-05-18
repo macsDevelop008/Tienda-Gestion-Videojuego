@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b477fdeca8e944184bd286676c1ad4, type: 3}
+  m_Name: Item_Helmet_07
+  m_EditorClassIdentifier: 
+  _codigo: Item_Helmet_07
+  _precioGemas: 2000000
+  _precioOro: 6000000
+  _sprite: {fileID: -4031027282081224910, guid: 2b612fdf1a830a743ad49f55a4c9ddf0,
+    type: 3}
+  _tipoItem: 0
+  _force: 45
+  _agility: 25
+  _mana: 65

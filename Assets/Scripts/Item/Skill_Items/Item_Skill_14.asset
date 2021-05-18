@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b477fdeca8e944184bd286676c1ad4, type: 3}
+  m_Name: Item_Skill_14
+  m_EditorClassIdentifier: 
+  _codigo: Item_Skill_14
+  _precioGemas: 500000
+  _precioOro: 950000
+  _sprite: {fileID: -5804720386104727138, guid: 2b612fdf1a830a743ad49f55a4c9ddf0,
+    type: 3}
+  _tipoItem: 4
+  _force: 45
+  _agility: 45
+  _mana: 45

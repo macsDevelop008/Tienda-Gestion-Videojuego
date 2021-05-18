@@ -42,23 +42,32 @@ public class PersistenceManager : MonoBehaviour
             PlayerPrefs.SetInt("CantidadOro", 0);
 
             PlayerPrefs.SetString("CascoSelec", "");
-            PlayerPrefs.SetString("PecgeraSelec", "");
+            PlayerPrefs.SetString("PecheraSelec", "");
             PlayerPrefs.SetString("ZpatosSelec", "");
             PlayerPrefs.SetString("GuantesSelec", "");
             PlayerPrefs.SetString("LibHabiliSelec", "");
+            PlayerPrefs.SetString("Poder1", "");
+            PlayerPrefs.SetString("Poder2", "");
+            PlayerPrefs.SetString("Poder3", "");
         }
     }
 
 
     //ORO
-    public string DarLlaveCantidadOroPersistencia() 
-    {
-        return "CantidadOro";
-    }
+    public string DarLlaveCantidadOroPersistencia() { return "CantidadOro"; }
+    
     //GEMAS
-    public string DarLlaveCantidadGemasPersistencia()
-    {
-        return "CantidadGemas";
-    }
+    public string DarLlaveCantidadGemasPersistencia(){ return "CantidadGemas"; }
+
+    //ITEMS SELECCIONADOS
+    public string DarLlaveCascoSeleccionado() {return "CascoSelec";}
+    public string DarLlavePecheraSeleccionado() {return "PecheraSelec"; }
+    public string DarLlaveBotasSeleccionado() {return "ZpatosSelec"; }
+    public string DarLlaveGuantesSeleccionado() {return "GuantesSelec"; }
+    public string DarLlaveHabilidadSeleccionado() {return "LibHabiliSelec"; }
+    public string DarLlavePoder1Seleccionado() {return "Poder1"; }
+    public string DarLlavePoder2Seleccionado() {return "Poder2"; }
+    public string DarLlavePoder3Seleccionado() {return "Poder3"; }
+
 }
 
