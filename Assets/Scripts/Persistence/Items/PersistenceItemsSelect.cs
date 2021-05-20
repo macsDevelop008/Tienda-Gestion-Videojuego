@@ -6,6 +6,14 @@ public class PersistenceItemsSelect : MonoBehaviour
 {
     public static PersistenceItemsSelect Shared;
 
+    //Dar llave items seleccionados
+    public string DarLlaveCascoSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveCascoSeleccionado()); }
+    public string DarLlavePecheraSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlavePecheraSeleccionado()); }
+    public string DarLlaveGuantesSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveGuantesSeleccionado()); }
+    public string DarLlaveBotasSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveBotasSeleccionado()); }
+    public string DarLlaveHabilidadSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveHabilidadSeleccionado()); }
+
+
     private void Awake()
     {
         Shared = this;
@@ -40,6 +48,7 @@ public class PersistenceItemsSelect : MonoBehaviour
     }
     public void ModificarBotasSeleccionado(Item item)
     {
+        print("ñamñam");
         PlayerPrefs.SetString(
             Persistencia().DarLlaveBotasSeleccionado()
             , item._codigo
@@ -73,4 +82,6 @@ public class PersistenceItemsSelect : MonoBehaviour
             , item._codigo
             );
     }
+
+    
 }

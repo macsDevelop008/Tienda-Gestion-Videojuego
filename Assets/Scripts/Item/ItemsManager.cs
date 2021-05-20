@@ -46,7 +46,6 @@ public class ItemsManager : MonoBehaviour
     public void LlenarLista_Inventario_Tienda() 
     {
         _listaToInventario = PersistenceItems.Shared.ListadoItemsPersisitdos(_allItems);
-        print(_listaToInventario.Count);
         _listaToTienda = PersistenceItems.Shared.ListadoItemsNoPersisitdos(_allItems);
     }
 

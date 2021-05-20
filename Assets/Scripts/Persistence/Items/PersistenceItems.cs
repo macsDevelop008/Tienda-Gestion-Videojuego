@@ -15,12 +15,12 @@ public class PersistenceItems : MonoBehaviour
         Shared = this;
         _itemsPersistidos = new List<Item>();
         _itemsNoPersistidos = new List<Item>();
-        PersistirItemsIniciales();
+        
     }
 
     private void Start()
     {
-
+        PersistirItemsIniciales();
     }
 
     //Items Iniciales
@@ -35,8 +35,29 @@ public class PersistenceItems : MonoBehaviour
 
             for (int i = 0; i < _itemsIniciales.Length; i++) 
             {
-                print("f");
                 PersistirItem(_itemsIniciales[i]);
+
+                //Persistir en item seleccionados
+                if (_itemsIniciales[i]._tipoItem == TIPO.CASCO) 
+                {
+                    PersistenceItemsSelect.Shared.ModificarCascoSeleccionado(_itemsIniciales[i]);                  
+                }
+                if (_itemsIniciales[i]._tipoItem == TIPO.PECHERA)
+                {
+                    PersistenceItemsSelect.Shared.ModificarPecheraSeleccionado(_itemsIniciales[i]);
+                }
+                if (_itemsIniciales[i]._tipoItem == TIPO.GUANTES)
+                {
+                    PersistenceItemsSelect.Shared.ModificarGuantesSeleccionado(_itemsIniciales[i]);
+                }
+                if (_itemsIniciales[i]._tipoItem == TIPO.BOTAS)
+                {
+                    PersistenceItemsSelect.Shared.ModificarBotasSeleccionado(_itemsIniciales[i]);
+                }
+                if (_itemsIniciales[i]._tipoItem == TIPO.HABILIDAD)
+                {
+                    PersistenceItemsSelect.Shared.ModificarHabilidadSeleccionado(_itemsIniciales[i]);
+                }
             }
         }
     }

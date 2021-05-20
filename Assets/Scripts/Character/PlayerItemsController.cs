@@ -6,30 +6,58 @@ public class PlayerItemsController : MonoBehaviour
 {
     public static PlayerItemsController Shared;
 
-    private Item _casco;
-    private Item _pechera;
-    private Item _guantes;
-    private Item _zapatos;
-    private Item _habilidad;
-
-    private Item _poder1, _poder2, _poder3;
 
     private void Awake()
     {
         Shared = this;
     }
+    private void Start()
+    {
+        //print(BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveCascoSeleccionado())._codigo);
+    }
+    public Item Casco() 
+    {
+        
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveCascoSeleccionado());
+    }
+    public Item Pechera()
+    {
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlavePecheraSeleccionado());
+    }
+    public Item Guantes()
+    {
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveGuantesSeleccionado());
+    }
+    public Item Botas()
+    {
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveBotasSeleccionado());
+    }
+    public Item Habilidad()
+    {
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveHabilidadSeleccionado());
+    }
+    public Item Poder1()
+    {
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveHabilidadSeleccionado());
+    }
 
-    public Item Casco { get { return _casco; } set { _casco = value; } }
-    public Item Pechera { get { return _pechera; } set { _pechera = value; } }
-    public Item Guantes { get { return _guantes; } set { _guantes = value; } }
-    public Item Zapatos { get { return _zapatos; } set { _zapatos = value; } }
-    public Item Habilidad { get { return _habilidad; } set { _habilidad = value; } }
-    public Item Poder1 { get { return _poder1; } set { _poder1 = value; } }
-    public Item Poder2 { get { return _poder2; } set { _poder2 = value; } }
-    public Item Poder3 { get { return _poder3; } set { _poder3 = value; } }
 
-    void ItemsSeleccionados() 
+    //Retorna item segun llave de persistencia
+    public Item BuscarItemSeleccionado(string llaveItem) 
     {
 
+        Item item = null;
+        Item[] array = ItemsManager.Shared.ItemsParaInventario().ToArray();
+        //print(llaveItem);
+
+        for (int i = 0; i < array.Length; i++) 
+        {
+            if (array[i]._codigo.Equals(llaveItem))
+            {
+                return array[i];
+            }
+        }
+
+        return item;
     }
 }

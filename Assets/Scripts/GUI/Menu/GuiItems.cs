@@ -20,7 +20,16 @@ public class GuiItems : MonoBehaviour
     }
     public void InicializarItemsSeleccionadosGUI() 
     {
-        //Valores persistidos
+        ModificarCascoGUI(PlayerItemsController.Shared.Casco());
+        ModificarPecheraGUI(PlayerItemsController.Shared.Pechera());
+        ModificarBotasGUI(PlayerItemsController.Shared.Botas());
+        ModificarGuantesGUI(PlayerItemsController.Shared.Guantes());
+        ModificarLibroHabilidadGUI(PlayerItemsController.Shared.Habilidad());
+    }
+
+    private void OnEnable()
+    {
+        //InicializarItemsSeleccionadosGUI();
     }
 
     public void ModificarCascoGUI(Item item) 
@@ -34,7 +43,7 @@ public class GuiItems : MonoBehaviour
 
     }
 
-    public void ModificarZapatosGUI(Item item)
+    public void ModificarBotasGUI(Item item)
     {
         _imagenZapatos.sprite = item._sprite;
 

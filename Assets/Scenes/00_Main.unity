@@ -1105,8 +1105,8 @@ GameObject:
   - component: {fileID: 84726207}
   - component: {fileID: 84726206}
   - component: {fileID: 84726205}
-  - component: {fileID: 84726208}
   - component: {fileID: 84726209}
+  - component: {fileID: 84726208}
   m_Layer: 0
   m_Name: PersistenceMager
   m_TagString: Untagged
@@ -1926,11 +1926,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac90d54de9093b143bd66a6734a59576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _imagenCaso: {fileID: 0}
-  _imagenPechera: {fileID: 0}
-  _imagenZapatos: {fileID: 0}
-  _imagenGuantes: {fileID: 0}
-  _imagenLibroHabilidad: {fileID: 0}
+  _imagenCaso: {fileID: 1845561703}
+  _imagenPechera: {fileID: 464469835}
+  _imagenZapatos: {fileID: 1987629222}
+  _imagenGuantes: {fileID: 1184546221}
+  _imagenLibroHabilidad: {fileID: 944872041}
 --- !u!1 &130292914
 GameObject:
   m_ObjectHideFlags: 0
@@ -8775,7 +8775,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &662054926
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10527,7 +10527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &831299518
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13786,7 +13786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1106361863
 Transform:
   m_ObjectHideFlags: 0

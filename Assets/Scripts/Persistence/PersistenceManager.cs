@@ -23,6 +23,11 @@ public class PersistenceManager : MonoBehaviour
     void Awake()
     {
         Shared = this;
+        
+    }
+
+    private void Start()
+    {
         CrearLlaves();
     }
 
