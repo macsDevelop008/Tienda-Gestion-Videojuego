@@ -91,6 +91,8 @@ public class PersistenceItems : MonoBehaviour
     //Retornar lista de items persistidos, parametro lista de todos los items disponibles en la aplicacion
     public List<Item> ListadoItemsPersisitdos(Item[] listadoTodoItemsPosibles) 
     {
+        _itemsPersistidos = new List<Item>();
+
         for (int i = 0; i < listadoTodoItemsPosibles.Length; i++) 
         {
             if (ExistenciaItemEnPersistencia(listadoTodoItemsPosibles[i])) 
@@ -104,6 +106,8 @@ public class PersistenceItems : MonoBehaviour
     //Retornar lista de items no persistidos, parametro lista de todos los items disponibles en la aplicacion
     public List<Item> ListadoItemsNoPersisitdos(Item[] listadoTodoItemsPosibles)
     {
+        _itemsNoPersistidos = new List<Item>();
+
         for (int i = 0; i < listadoTodoItemsPosibles.Length; i++)
         {
             if (!ExistenciaItemEnPersistencia(listadoTodoItemsPosibles[i]))

@@ -27,11 +27,6 @@ public class GuiItems : MonoBehaviour
         ModificarLibroHabilidadGUI(PlayerItemsController.Shared.Habilidad());
     }
 
-    private void OnEnable()
-    {
-        //InicializarItemsSeleccionadosGUI();
-    }
-
     public void ModificarCascoGUI(Item item) 
     {
         _imagenCaso.sprite = item._sprite;

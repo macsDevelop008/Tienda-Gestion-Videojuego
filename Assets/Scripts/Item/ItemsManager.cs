@@ -11,20 +11,15 @@ public class ItemsManager : MonoBehaviour
                                         _itemsHabilidades, _itemsTecnicas;
 
     Item[] _allItems;
-    List<Item> _listaToInventario, _listaToTienda;
+    //List<Item> _listaToInventario, _listaToTienda;
 
     private void Awake()
     {
         Shared = this;
-        _listaToInventario = new List<Item>();
-        _listaToTienda = new List<Item>();
+        //_listaToInventario = new List<Item>();
+        //_listaToTienda = new List<Item>();
         UnirAllItemsArray();
-        LlenarLista_Inventario_Tienda();
-    }
-
-    private void Start()
-    {
-
+        //LlenarLista_Inventario_Tienda();
     }
 
     //Unir arrays de items
@@ -43,21 +38,24 @@ public class ItemsManager : MonoBehaviour
     }
 
     //Llena la lista de items para el inventario y para la tienda
-    public void LlenarLista_Inventario_Tienda() 
+    /*public void LlenarLista_Inventario_Tienda() 
     {
         _listaToInventario = PersistenceItems.Shared.ListadoItemsPersisitdos(_allItems);
         _listaToTienda = PersistenceItems.Shared.ListadoItemsNoPersisitdos(_allItems);
-    }
+    }*/
 
     //Items disponibles para el inventario
     public List<Item> ItemsParaInventario() 
     {
-        return _listaToInventario;
+        //LlenarLista_Inventario_Tienda();
+        //_listaToInventario = new List<Item>();
+        return PersistenceItems.Shared.ListadoItemsPersisitdos(_allItems);
+        //return _listaToInventario;
     }
 
     //Items disponibles para la tienda
     public List<Item> ItemsParaTienda()
     {
-        return _listaToTienda;
+        return PersistenceItems.Shared.ListadoItemsNoPersisitdos(_allItems);
     }
 }
