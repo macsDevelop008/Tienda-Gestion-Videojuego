@@ -12,7 +12,7 @@ public class PersistenceItemsSelect : MonoBehaviour
     public string DarLlaveGuantesSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveGuantesSeleccionado()); }
     public string DarLlaveBotasSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveBotasSeleccionado()); }
     public string DarLlaveHabilidadSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlaveHabilidadSeleccionado()); }
-
+    public string DarLlavePoderSeleccionado() { return PlayerPrefs.GetString(Persistencia().DarLlavePoder2Seleccionado()); }
 
     private void Awake()
     {
@@ -48,7 +48,6 @@ public class PersistenceItemsSelect : MonoBehaviour
     }
     public void ModificarBotasSeleccionado(Item item)
     {
-        print("ñamñam");
         PlayerPrefs.SetString(
             Persistencia().DarLlaveBotasSeleccionado()
             , item._codigo
@@ -61,13 +60,13 @@ public class PersistenceItemsSelect : MonoBehaviour
             , item._codigo
             );
     }
-    public void ModificarPoder1Seleccionado(Item item)
+    /*public void ModificarPoder1Seleccionado(Item item)
     {
         PlayerPrefs.SetString(
             Persistencia().DarLlavePoder1Seleccionado()
             , item._codigo
             );
-    }
+    }*/
     public void ModificarPoder2Seleccionado(Item item)
     {
         PlayerPrefs.SetString(
@@ -75,13 +74,13 @@ public class PersistenceItemsSelect : MonoBehaviour
             , item._codigo
             );
     }
-    public void ModificarPoder3Seleccionado(Item item)
+    /*public void ModificarPoder3Seleccionado(Item item)
     {
         PlayerPrefs.SetString(
             Persistencia().DarLlavePoder3Seleccionado()
             , item._codigo
             );
-    }
+    }*/
 
     
 }

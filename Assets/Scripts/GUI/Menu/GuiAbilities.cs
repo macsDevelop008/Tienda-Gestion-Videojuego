@@ -7,9 +7,9 @@ public class GuiAbilities : MonoBehaviour
 {
     public static GuiAbilities Shared;
 
-    [SerializeField] Image _habilidad1;
+    //[SerializeField] Image _habilidad1;
     [SerializeField] Image _habilidad2;
-    [SerializeField] Image _habilidad3;
+    //[SerializeField] Image _habilidad3;
 
     private void Awake()
     {
@@ -23,19 +23,19 @@ public class GuiAbilities : MonoBehaviour
 
     public void InicializarHabilidadesSeleccionadas() 
     {
-        //Persistencia
+        ModificasHabilidad2GUI(PlayerItemsController.Shared.Poder2());
     }
 
-    public void ModificasHabilidad1GUI(Item item) 
+    /*public void ModificasHabilidad1GUI(Item item) 
     {
         _habilidad1.sprite = item._sprite;
-    }
+    }*/
     public void ModificasHabilidad2GUI(Item item)
     {
         _habilidad2.sprite = item._sprite;
     }
-    public void ModificasHabilidad3GUI(Item item)
+    /*public void ModificasHabilidad3GUI(Item item)
     {
         _habilidad3.sprite = item._sprite;
-    }
+    }*/
 }

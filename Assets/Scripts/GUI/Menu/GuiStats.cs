@@ -30,9 +30,16 @@ public class GuiStats : MonoBehaviour
         InicializarStatsGUI();
     }
 
+    PlayerStatsController PlayerStats() 
+    {
+        return PlayerStatsController.Shared;
+    }
+
     void InicializarStatsGUI() 
     {
-        //Obtener valores del personaje
+        ModificarFuerzaGUI(PlayerStats().DarForceTotal());
+        ModificarAgilidadGUI(PlayerStats().DarAilityTotal());
+        ModificarManaGUI(PlayerStats().DarManaTotal());
     }
 
     public void ModificarFuerzaGUI(float num)

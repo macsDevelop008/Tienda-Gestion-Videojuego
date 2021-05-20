@@ -36,9 +36,9 @@ public class PlayerItemsController : MonoBehaviour
     {
         return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveHabilidadSeleccionado());
     }
-    public Item Poder1()
+    public Item Poder2()
     {
-        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlaveHabilidadSeleccionado());
+        return BuscarItemSeleccionado(PersistenceItemsSelect.Shared.DarLlavePoderSeleccionado());
     }
 
 
@@ -48,7 +48,6 @@ public class PlayerItemsController : MonoBehaviour
 
         Item item = null;
         Item[] array = ItemsManager.Shared.ItemsParaInventario().ToArray();
-        //print(llaveItem);
 
         for (int i = 0; i < array.Length; i++) 
         {

@@ -70,9 +70,9 @@ public class PersistenceManager : MonoBehaviour
     public string DarLlaveBotasSeleccionado() {return "ZpatosSelec"; }
     public string DarLlaveGuantesSeleccionado() {return "GuantesSelec"; }
     public string DarLlaveHabilidadSeleccionado() {return "LibHabiliSelec"; }
-    public string DarLlavePoder1Seleccionado() {return "Poder1"; }
+    //public string DarLlavePoder1Seleccionado() {return "Poder1"; }
     public string DarLlavePoder2Seleccionado() {return "Poder2"; }
-    public string DarLlavePoder3Seleccionado() {return "Poder3"; }
+    //public string DarLlavePoder3Seleccionado() {return "Poder3"; }
 
 }
 

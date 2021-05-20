@@ -58,6 +58,10 @@ public class PersistenceItems : MonoBehaviour
                 {
                     PersistenceItemsSelect.Shared.ModificarHabilidadSeleccionado(_itemsIniciales[i]);
                 }
+                if (_itemsIniciales[i]._tipoItem == TIPO.PODER) 
+                {
+                    PersistenceItemsSelect.Shared.ModificarPoder2Seleccionado(_itemsIniciales[i]);
+                }
             }
         }
     }
