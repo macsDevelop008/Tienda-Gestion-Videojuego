@@ -31,6 +31,7 @@ public class ItemsAvailableInventoryController : MonoBehaviour
     {
         GameObject o = Instantiate(_baseItem, _contenedorInventory);
         ModificarImagenItem(o, item._sprite);
+        o.GetComponent<BaseItemInventoryController>().item = item;
     }
 
     void ModificarImagenItem(GameObject item, Sprite imagen) 
